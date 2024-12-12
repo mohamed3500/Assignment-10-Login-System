@@ -1,0 +1,56 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #24353F;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body .form-group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+}
+
+.form-group input {
+    background-color: #24353F;
+    border: 1px solid #ced4da;
+    color: #fff;
+}
+
+.form-group input:focus {
+    border-color: #80bdff !important;
+    outline: 0 !important;
+    background-color: #24353F;
+    box-shadow: 0 0 0 0 transparent !important;
+    color: #fff;
+}
+
+::placeholder {
+    color: #ced4da !important;
+}
+
+.custom-nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav .my-padding {
+    padding-inline: 5%;
+}
+
+nav .custom-nav-item {
+    border: 1px solid #ffc107;
+    border-radius: 9px;
+}
+
+nav .custom-nav-item a:hover {
+    text-decoration: none;
+}
+
+.sign-in #incorrect {
+    color: #dc3545;
+}
